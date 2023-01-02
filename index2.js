@@ -1,5 +1,5 @@
 function IpAddress() {
-    const Ip = "http://api.ipify.org/?format=json";
+    const Ip = "https://api.ipify.org/?format=json";
     const data= fetch(Ip)
     data
         .then((res) => {
