@@ -7,7 +7,7 @@ function IpAddress(){
     })
     .then((data)=>{
         console.log(data);
-document.getElementById("IP").innerText = `MY Public IP ADDRESS : ${data.ip}`;
+//document.getElementById("IP").innerText = `MY Public IP ADDRESS : ${data.ip}`;
 
 })
 }
